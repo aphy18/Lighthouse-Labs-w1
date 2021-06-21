@@ -15,7 +15,7 @@
 
 const whatToDoForLunch = function(hungry, availableTime) {
     if(hungry === true){
-      if(availableTime < 20){
+       if(availableTime < 20){
         console.log("I'm going to eat this banana.")
       }
       else if(availableTime >= 20 && availableTime <= 30){
@@ -27,12 +27,10 @@ const whatToDoForLunch = function(hungry, availableTime) {
       }
     }
       
-    
       else{
         console.log("I must focus and get back to work!")
       
     }
-   
  }
   /*
    * This is some test runner code that's simply calling our whatToDoForLunch function
